@@ -1,0 +1,7 @@
+GROUP,PACKAGE,CLASS,INSTRUCTION_MISSED,INSTRUCTION_COVERED,BRANCH_MISSED,BRANCH_COVERED,LINE_MISSED,LINE_COVERED,COMPLEXITY_MISSED,COMPLEXITY_COVERED,METHOD_MISSED,METHOD_COVERED
+todoapp,com.todoapp,App,5,0,0,0,2,0,1,0,1,0
+todoapp,com.todoapp,AppWidget,56,0,0,0,15,0,1,0,1,0
+todoapp,com.todoapp,NewButton,23,0,0,0,8,0,2,0,2,0
+todoapp,com.todoapp,TaskWidget,32,0,0,0,9,0,1,0,1,0
+todoapp,com.todoapp,InputTextField,18,0,0,0,5,0,1,0,1,0
+todoapp,com.todoapp,TaskContainer,20,0,0,0,7,0,3,0,3,0
