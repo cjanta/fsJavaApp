@@ -1,4 +1,4 @@
-# fsJavaApp
+# fsJavaApp aka: MissionTodoApp
 finale App des Kurses FaÜ-II (Dozent: T.Schott)
 
 # Schritt 1: Grundlegende Swing-App erstellen
