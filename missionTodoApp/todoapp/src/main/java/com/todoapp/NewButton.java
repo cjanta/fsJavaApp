@@ -19,6 +19,8 @@ public class NewButton extends JButton implements ActionListener{
     public void actionPerformed(ActionEvent e) {
        container.add(new TaskWidget());
     }
+
+    
 }
 
 
