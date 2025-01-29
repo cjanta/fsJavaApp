@@ -9,7 +9,9 @@ public class InputTextField extends JTextField{
 
     public InputTextField(){
         setMinimumSize(minDimension);
+        setMaximumSize(minDimension);
         setSize(minDimension);
+        setText("Bitte Task Beschreibung eingeben!");
         
 
     }

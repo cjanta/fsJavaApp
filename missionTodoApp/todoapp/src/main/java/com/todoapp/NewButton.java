@@ -18,6 +18,9 @@ public class NewButton extends JButton implements ActionListener{
     @Override
     public void actionPerformed(ActionEvent e) {
        container.add(new TaskWidget());
+       container.setVisible(true);
+       container.getParent().validate();
+       System.out.println("New Task added!");
     }
 }
 

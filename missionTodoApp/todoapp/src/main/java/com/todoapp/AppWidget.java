@@ -1,8 +1,10 @@
 package com.todoapp;
 
 import java.awt.Dimension;
-import java.awt.FlowLayout;
+import javax.swing.BoxLayout;
 import javax.swing.JFrame;
+import javax.swing.JPanel;
+
 
 public class AppWidget extends JFrame{
 
@@ -13,21 +15,23 @@ public class AppWidget extends JFrame{
         setDefaultCloseOperation(JFrame.EXIT_ON_CLOSE);
         setMinimumSize(minDimension);
         setSize(minDimension);
-        setLayout(new FlowLayout());
+        setLayout(new BoxLayout(getContentPane(),BoxLayout.Y_AXIS));
 
+        JPanel hPanel = new JPanel();
+        hPanel.setMaximumSize(new Dimension(400,100));
         InputTextField input = new InputTextField();
-        add(input);
+        hPanel.add(input);
 
         TaskContainer container = new TaskContainer();
         NewButton cButton = new NewButton(container);
-        add(container);
-        add(cButton);
+        hPanel.add(cButton);
+        add(hPanel);
+        add(container.getScrollPane());
 
 
         pack();
         setVisible(true);
 
     }
-
 
 }
