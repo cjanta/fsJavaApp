@@ -22,6 +22,8 @@ public class NewButton extends JButton implements ActionListener{
        container.getParent().validate();
        System.out.println("New Task added!");
     }
+
+    
 }
 
 

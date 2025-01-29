@@ -1,0 +1,56 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<checkstyle version="8.45.1">
+<file name="C:\Home\VSCODE_DEV\fsJavaApp\missionTodoApp\todoapp\src\main\java\com\todoapp\App.java">
+<error line="3" severity="error" message="Der erste Satz sollte mit einem Punkt enden." source="com.puppycrawl.tools.checkstyle.checks.javadoc.JavadocStyleCheck"/>
+<error line="11" severity="error" message="Der erste Satz sollte mit einem Punkt enden." source="com.puppycrawl.tools.checkstyle.checks.javadoc.JavadocStyleCheck"/>
+</file>
+<file name="C:\Home\VSCODE_DEV\fsJavaApp\missionTodoApp\todoapp\src\main\java\com\todoapp\AppWidget.java">
+<error line="7" column="1" severity="error" message="Es fehlt ein Javadoc-Kommentar." source="com.puppycrawl.tools.checkstyle.checks.javadoc.MissingJavadocTypeCheck"/>
+<error line="7" column="38" severity="error" message="Vor &apos;{&apos; fehlt ein Leerzeichen." source="com.puppycrawl.tools.checkstyle.checks.whitespace.WhitespaceAroundCheck"/>
+<error line="9" column="55" severity="error" message="Nach &apos;,&apos; fehlt ein Leerzeichen." source="com.puppycrawl.tools.checkstyle.checks.whitespace.WhitespaceAfterCheck"/>
+<error line="10" severity="error" message="Line has trailing spaces." source="com.puppycrawl.tools.checkstyle.checks.regexp.RegexpSinglelineCheck"/>
+<error line="11" column="5" severity="error" message="Es fehlt ein Javadoc-Kommentar." source="com.puppycrawl.tools.checkstyle.checks.javadoc.MissingJavadocMethodCheck"/>
+<error line="11" column="23" severity="error" message="Vor &apos;{&apos; fehlt ein Leerzeichen." source="com.puppycrawl.tools.checkstyle.checks.whitespace.WhitespaceAroundCheck"/>
+<error line="30" column="5" severity="error" message="Hinter &apos;}&apos; steht mehr als eine leere Zeile." source="com.puppycrawl.tools.checkstyle.checks.whitespace.EmptyLineSeparatorCheck"/>
+</file>
+<file name="C:\Home\VSCODE_DEV\fsJavaApp\missionTodoApp\todoapp\src\main\java\com\todoapp\InputTextField.java">
+<error line="4" column="1" severity="error" message="Falsche Reihenfolge des Imports von &apos;java.awt.Dimension&apos;." source="com.puppycrawl.tools.checkstyle.checks.imports.ImportOrderCheck"/>
+<error line="6" column="1" severity="error" message="Es fehlt ein Javadoc-Kommentar." source="com.puppycrawl.tools.checkstyle.checks.javadoc.MissingJavadocTypeCheck"/>
+<error line="6" column="47" severity="error" message="Vor &apos;{&apos; fehlt ein Leerzeichen." source="com.puppycrawl.tools.checkstyle.checks.whitespace.WhitespaceAroundCheck"/>
+<error line="7" severity="error" message="Line has trailing spaces." source="com.puppycrawl.tools.checkstyle.checks.regexp.RegexpSinglelineCheck"/>
+<error line="8" column="55" severity="error" message="Nach &apos;,&apos; fehlt ein Leerzeichen." source="com.puppycrawl.tools.checkstyle.checks.whitespace.WhitespaceAfterCheck"/>
+<error line="10" column="5" severity="error" message="Es fehlt ein Javadoc-Kommentar." source="com.puppycrawl.tools.checkstyle.checks.javadoc.MissingJavadocMethodCheck"/>
+<error line="10" column="28" severity="error" message="Vor &apos;{&apos; fehlt ein Leerzeichen." source="com.puppycrawl.tools.checkstyle.checks.whitespace.WhitespaceAroundCheck"/>
+<error line="13" severity="error" message="Line has trailing spaces." source="com.puppycrawl.tools.checkstyle.checks.regexp.RegexpSinglelineCheck"/>
+<error line="15" column="5" severity="error" message="Hinter &apos;}&apos; steht mehr als eine leere Zeile." source="com.puppycrawl.tools.checkstyle.checks.whitespace.EmptyLineSeparatorCheck"/>
+<error line="16" severity="error" message="Line has trailing spaces." source="com.puppycrawl.tools.checkstyle.checks.regexp.RegexpSinglelineCheck"/>
+</file>
+<file name="C:\Home\VSCODE_DEV\fsJavaApp\missionTodoApp\todoapp\src\main\java\com\todoapp\NewButton.java">
+<error line="8" column="1" severity="error" message="Es fehlt ein Javadoc-Kommentar." source="com.puppycrawl.tools.checkstyle.checks.javadoc.MissingJavadocTypeCheck"/>
+<error line="8" column="1" severity="error" message="Vor &apos;CLASS_DEF&apos; steht mehr als eine leere Zeile." source="com.puppycrawl.tools.checkstyle.checks.whitespace.EmptyLineSeparatorCheck"/>
+<error line="8" column="65" severity="error" message="Vor &apos;{&apos; fehlt ein Leerzeichen." source="com.puppycrawl.tools.checkstyle.checks.whitespace.WhitespaceAroundCheck"/>
+<error line="10" column="27" severity="error" message="Die Variable &apos;container&apos; wird explizit mit &apos;null&apos; initialisiert (was dem Standardwert ihres Typs entspricht)." source="com.puppycrawl.tools.checkstyle.checks.coding.ExplicitInitializationCheck"/>
+<error line="12" column="5" severity="error" message="Es fehlt ein Javadoc-Kommentar." source="com.puppycrawl.tools.checkstyle.checks.javadoc.MissingJavadocMethodCheck"/>
+<error line="12" column="46" severity="error" message="Vor &apos;{&apos; fehlt ein Leerzeichen." source="com.puppycrawl.tools.checkstyle.checks.whitespace.WhitespaceAroundCheck"/>
+<error line="20" column="8" severity="error" message="Das Unterelement von &apos;method def&apos; hat eine unerwartete Einrückungstiefe von 7 (erwartet: 8)." source="com.puppycrawl.tools.checkstyle.checks.indentation.IndentationCheck"/>
+</file>
+<file name="C:\Home\VSCODE_DEV\fsJavaApp\missionTodoApp\todoapp\src\main\java\com\todoapp\TaskContainer.java">
+<error line="5" column="1" severity="error" message="Zusätzliche Trennung in der Importgruppe vor &apos;javax.swing.JPanel&apos;" source="com.puppycrawl.tools.checkstyle.checks.imports.ImportOrderCheck"/>
+<error line="9" column="1" severity="error" message="Es fehlt ein Javadoc-Kommentar." source="com.puppycrawl.tools.checkstyle.checks.javadoc.MissingJavadocTypeCheck"/>
+<error line="10" severity="error" message="Line has trailing spaces." source="com.puppycrawl.tools.checkstyle.checks.regexp.RegexpSinglelineCheck"/>
+<error line="11" column="27" severity="error" message="Vor &apos;{&apos; fehlt ein Leerzeichen." source="com.puppycrawl.tools.checkstyle.checks.whitespace.WhitespaceAroundCheck"/>
+<error line="12" severity="error" message="Zeile ist 127 Zeichen lang (Obergrenze ist 120)." source="com.puppycrawl.tools.checkstyle.checks.sizes.LineLengthCheck"/>
+<error line="15" column="48" severity="error" message="Vor &apos;{&apos; fehlt ein Leerzeichen." source="com.puppycrawl.tools.checkstyle.checks.whitespace.WhitespaceAroundCheck"/>
+<error line="20" column="51" severity="error" message="Vor &apos;{&apos; fehlt ein Leerzeichen." source="com.puppycrawl.tools.checkstyle.checks.whitespace.WhitespaceAroundCheck"/>
+<error line="23" severity="error" message="Line has trailing spaces." source="com.puppycrawl.tools.checkstyle.checks.regexp.RegexpSinglelineCheck"/>
+</file>
+<file name="C:\Home\VSCODE_DEV\fsJavaApp\missionTodoApp\todoapp\src\main\java\com\todoapp\TaskWidget.java">
+<error line="5" column="1" severity="error" message="Zusätzliche Trennung in der Importgruppe vor &apos;javax.swing.JButton&apos;" source="com.puppycrawl.tools.checkstyle.checks.imports.ImportOrderCheck"/>
+<error line="10" column="1" severity="error" message="Es fehlt ein Javadoc-Kommentar." source="com.puppycrawl.tools.checkstyle.checks.javadoc.MissingJavadocTypeCheck"/>
+<error line="10" column="39" severity="error" message="Vor &apos;{&apos; fehlt ein Leerzeichen." source="com.puppycrawl.tools.checkstyle.checks.whitespace.WhitespaceAroundCheck"/>
+<error line="11" severity="error" message="Line has trailing spaces." source="com.puppycrawl.tools.checkstyle.checks.regexp.RegexpSinglelineCheck"/>
+<error line="13" column="5" severity="error" message="Es fehlt ein Javadoc-Kommentar." source="com.puppycrawl.tools.checkstyle.checks.javadoc.MissingJavadocMethodCheck"/>
+<error line="13" column="5" severity="error" message="Vor &apos;CTOR_DEF&apos; steht mehr als eine leere Zeile." source="com.puppycrawl.tools.checkstyle.checks.whitespace.EmptyLineSeparatorCheck"/>
+<error line="13" column="24" severity="error" message="Vor &apos;{&apos; fehlt ein Leerzeichen." source="com.puppycrawl.tools.checkstyle.checks.whitespace.WhitespaceAroundCheck"/>
+</file>
+</checkstyle>
