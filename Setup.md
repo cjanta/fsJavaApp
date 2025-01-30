@@ -1,4 +1,5 @@
 # Dependencies Maven
+monachus digitalis frater
 
 vs-code settings:
     maven.executable.path
